@@ -1,0 +1,56 @@
+.Card {
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  width: 300px;
+  margin: 30px;
+  /* padding-left: 10px; */
+}
+.Card-image img {
+  width: 299px;
+}
+.text {
+  text-align: center;
+}
+.home-cards {
+  width: 100%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.home-cards > .Card {
+  display: inline-block;
+}
+.navbar {
+  height: 60px;
+  width: 100;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: rgb(57, 170, 240);
+  color: rgb(8, 8, 8);
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.Logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin-left: 1rem;
+  padding-top: 10px;
+}
+.navbar-menu {
+  margin-left: auto;
+}
+.navbar-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navbar-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
